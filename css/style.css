@@ -1,0 +1,195 @@
+*{
+    font-family: 'Kameron', serif;
+    margin:0;
+}
+header{
+    height: 208px;
+    background-image:url(../img/POSIBLE\ FONDO\ 4\ co.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0px -10px;
+    margin-top: 0;
+    border-bottom: 1px white solid;
+    }
+.arribaEncabezado{
+    height: 271px;
+    display:flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    }
+.escudoH{
+    width: 225px;
+    height:250px;
+    position: relative;
+    left:1300px;
+    bottom: 209px;
+    z-index: 5;
+    }
+header h1{
+    color:black;
+    -webkit-text-stroke: 1px white;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 60px;
+}
+
+main{
+    background-color: grey;
+}
+main a{
+    text-decoration: none;
+    color:whitesmoke;
+}
+main li{
+    font-size: 24px;
+    list-style: none;
+    display: inline;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+main ul{
+    position: relative;
+    bottom: 3px;
+}
+.hover li a:hover{
+    /*background-color:rgba(75, 72, 72, 0.71);*/
+    color: rgb(218, 213, 205);
+}
+.mainI{
+    padding: 30px;
+    font-size: 20px;
+}
+.mainI img{
+    width: 700px;
+    height: 500px;
+}
+.mainF{
+    padding: 30px;
+    font-size: 20px;
+}
+.mainF h2{
+    font-size: 35px;
+}
+.mainF h3{
+    font-size: 25px;
+}
+.mainS{
+    padding-left: 30px;
+    padding-top:60px ;
+    padding-right: 30px;
+    font-size: 25px;
+}
+.mainS a{
+    text-decoration: none;
+}
+.mainS img{
+    width: 350px;
+    height: 375px;
+}
+.mainT{
+    padding-left: 30px;
+    padding-top: 60px;
+    padding-right: 30px;
+    font-size: 25px;
+}
+.mainC{
+   padding-top: 90px;
+   padding-left: 30px;
+   padding-right: 30px;
+   padding-bottom: 30px;
+   display: flex;
+   flex-direction: column;
+   gap: 75px;
+}
+main h2{
+    font-size: 35px;
+    font-weight: bold;
+}
+form{
+    font-size: 25px;
+    font-style: italic;
+    padding: 20px;
+}
+form input{
+    font-size: 20px;
+}
+form textarea{
+    font-size: 20px;
+}
+.mainC a{
+    font-size: 20px;
+    color: black;
+}
+.mainC h3{
+    font-size: 25px;
+}
+.mainC p{
+    font-size: 20px;
+}
+/*footer{
+    background-color: rgb(36, 36, 36);
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    gap:15px;
+}
+footer h2{
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
+footer p{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding:12px;
+}*/
+.escudoF{
+    width:90px ;
+    height:110px ;
+}
+/*
+.abajoPie{
+    display: flex;
+    justify-content: space-between;
+}
+.escudoPie{
+    display: flex;
+    justify-content: center;
+
+}
+*/
+.parteUnoC{
+    display:flex;
+    justify-content: space-evenly;
+}
+.redes{
+    display: flex;
+    flex-direction: column;
+}
+.redesTitulo{
+    display: flex;
+    flex-direction: column;
+}
+.tituloFormulario{
+    display: flex;
+    flex-direction: column;
+}
+.parteDosC{
+    display: flex;
+    justify-content: space-around;
+}
+.sedeTitulo{
+    display: flex;
+    flex-direction: column;
+}
+.horarios{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+iframe{
+    padding: 5px;
+}
