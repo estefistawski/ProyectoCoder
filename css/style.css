@@ -3,15 +3,13 @@
     margin:0;
 }
 header{
-    height: 208px;
+    height: 250px;
     background-image:url(../img/POSIBLE\ FONDO\ 4\ co.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 0px -10px;
     margin-top: 0;
     border-bottom: 1px white solid;
-    z-index: 1;
-    position: relative;
     }
 .divNav{
     z-index: 0;
@@ -97,6 +95,15 @@ main ul{
     padding-top: 60px;
     padding-right: 30px;
     font-size: 25px;
+}
+.mainT h1{
+    font-size: 50px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+.mainT h2{
+    font-size:40px ;
 }
 .mainC{
    padding-top: 90px;
@@ -198,4 +205,17 @@ footer p{
 }
 iframe{
     padding: 5px;
+}
+.colorBtn{
+    background-color: rgb(67, 67, 67);
+    color: beige;
+}
+.colorBtn:hover{
+    background-color: rgb(63, 62, 62);
+    color: beige;
+    border: 0.5px solid white;
+}
+.colorCardbody{
+    background-color:  rgb(159, 26, 26);
+    color: whitesmoke;
 }
