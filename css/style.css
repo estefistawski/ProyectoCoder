@@ -83,12 +83,12 @@ main a{
     padding-right: 30px;
     font-size: 25px;
 }
+.mainS h3{
+    font-size: 28px;
+    font-weight: bold;
+}
 .mainS a{
     text-decoration: none;
-}
-.mainS img{
-    width: 350px;
-    height: 375px;
 }
 .mainT{
     padding-left: 30px;
@@ -209,13 +209,14 @@ iframe{
 .colorBtn{
     background-color: rgb(67, 67, 67);
     color: beige;
+    font-size: 17px;
 }
 .colorBtn:hover{
-    background-color: rgb(63, 62, 62);
-    color: beige;
+    background-color: rgb(56, 56, 56);
     border: 0.5px solid white;
 }
 .colorCardbody{
-    background-color:  rgb(159, 26, 26);
+    background-color:  rgb(144, 20, 20);
     color: whitesmoke;
+    font-size: 22px;
 }
