@@ -12,7 +12,7 @@ header{
     border-bottom: 1px white solid;
     }
 .divNav{
-    z-index: 0;
+    z-index: 2;
 }
 .arribaEncabezado{
     height: 271px;
@@ -44,14 +44,14 @@ main a{
     text-decoration: none;
     color:whitesmoke;
 }
-main li{
+.divNav li{
     font-size: 24px;
     list-style: none;
     display: inline;
     margin-left: 80px;
     margin-right: 80px;
 }
-main ul{
+.divNav ul{
     position: relative;
     bottom: 3px;
 }
