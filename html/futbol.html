@@ -14,15 +14,17 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
   <script src="https://kit.fontawesome.com/3ef092f1c6.js" crossorigin="anonymous"></script>
-  <link rel="shortcut icon" href="img/ESCUDO.png" type="image/x-icon">
+  <link rel="shortcut icon" href="../img/ESCUDO.png" type="image/x-icon">
   <link rel="stylesheet" href="../css/style.css"">
 </head>
 <body>
-  <header>
-    <div class=" arribaEncabezado">
-  <h1>CLUB ATLÉTICO COLÓN</h1>
-  </div>
-  <img class="escudoH" src="../img/ESCUDO.png" alt="Imágen escudo Club Atlético Colón">
+  <header class="containerH">
+    <div class="row paraResponsive">
+      <div class="arribaEncabezado col-xl-11 col-md-11 col-sm-11">
+        <h1>CLUB ATLÉTICO COLÓN</h1>
+      </div>
+      <img class="escudoH" src="img/ESCUDO.png" alt="Imágen escudo Club Atlético Colón">
+    </div>
   </header>
   <main>
     <div
@@ -69,9 +71,14 @@
                     ipsum. Perspiciatis nobis eveniet debitis, dolorem sapiente sunt. Accusantium iste eligendi repellat
                     adipisci dicta ex. Dicta qui, impedit ad neque numquam corporis? Ab.</p>
                   <h3>INDIVIDUALES</h3>
+
+                  <div class="contenedorTablas">
+                  <div class="contenedorTablas1">
+
+                  <div class="tablaIndividual">
                   <h4>GOLEADORES</h4>
                  
-                  <table class="table table-light table-responsive text-center">
+                  <table class="table table-light table-responsive text-center tabla">
                     <thead class="table-dark">
                       <tr>
                         <th scope="col"></th>
@@ -102,10 +109,12 @@
                       </tr>
                     </tbody>
                   </table>
+                  </div>
 
+                  <div class="tablaIndividual">
                   <h4>ASISTENCIAS</h4>
 
-                  <table class="table table-light table-responsive text-center">
+                  <table class="table table-light table-responsive text-center tabla">
                     <thead class="table-dark">
                       <tr>
                         <th scope="col"></th>
@@ -141,10 +150,16 @@
                       </tr>
                     </tbody>
                   </table>
+                  </div>
 
+                  </div>
+
+                  <div class="contenedorTablas2">
+
+                  <div class="tablaIndividual">
                   <h4>TARJETAS AMARILLAS</h4>
 
-                  <table class="table table-light table-responsive text-center">
+                  <table class="table table-light table-responsive text-center tabla">
                     <thead class="table-dark">
                       <tr>
                         <th scope="col"></th>
@@ -185,10 +200,12 @@
                       </tr>
                     </tbody>
                   </table>
+                  </div>
 
+                  <div class="tablaIndividual">
                   <h4>TARJETAS ROJAS</h4>
 
-                  <table class="table table-light table-responsive text-center">
+                  <table class="table table-light table-responsive text-center tabla">
                     <thead class="table-dark">
                       <tr>
                         <th scope="col"></th>
@@ -214,7 +231,9 @@
                       </tr>
                     </tbody>
                   </table>
+                  </div>
 
+                </div>
 
                   <!-- SPONSORS -->
                   <div class="contenedorSponsors">
@@ -283,6 +302,8 @@
                     </div>
 
                   </div>
+                  </div>
+
                   </div>
       </div>
   </main>

@@ -19,19 +19,51 @@ header{
     display:flex;
     flex-flow: column nowrap;
     justify-content: center;
-    }
+}
 .escudoH{
-    width: 225px;
-    height:250px;
-    position: relative;
-    left:1300px;
-    bottom: 209px;
+    position: absolute;
+    left:77%;
+    bottom: -10%;
     z-index: 10;
     }
-@media (min-width: 480px) and (max-width: 1023px){
+.paraResponsive{
+    position: relative;
+}
+@media (min-width: 320px) and (max-width: 480px){
     .escudoH{
-        width: 100px;
-        height: 125px;
+        width:75px;
+        height: 100px;
+    }
+}
+@media (min-width: 480px) and (max-width: 600px){
+    .escudoH{
+        width:120px;
+        height: 145px;
+    }
+}
+@media (min-width:600px) and (max-width:768px){
+    .escudoH{
+        width:150px;
+        height: 175px;
+    }
+    .arribaEncabezado h1{
+        font-size: 40px;
+    }
+}
+@media (min-width: 768px) and (max-width:1023px){
+    .escudoH{
+        width:150px;
+        height:175px ;
+    }
+    .arribaEncabezado h1{
+        font-size: 50px;
+    }
+
+}
+@media (min-width:1024px){
+    .escudoH{
+        width: 225px;
+        height: 250px;
     }
 }
 header h1{
@@ -87,6 +119,19 @@ main a{
 }
 .mainF h4{
     font-size: 33px;
+}
+.tabla{
+    width: 600px;
+}
+.contenedorTablas1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.contenedorTablas2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 .mainS{
     padding-left: 30px;
