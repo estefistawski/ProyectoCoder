@@ -60,13 +60,9 @@ main a{
     color: rgb(218, 213, 205);
 }
 .mainI{
-    padding: 30px;
-    font-size: 20px;
+    padding: 20px;;
 }
-.imgCuerpo{
-    width: 700px;
-    height: 500px;
-}
+
 .mainF{
     padding: 30px;
     font-size: 20px;
@@ -115,6 +111,11 @@ main a{
     flex-direction: row;
     justify-content: space-around;
 }
+.contenedorPlantel{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+}
 .iconoImg{
     display: flex;
     flex-direction: column;
@@ -124,6 +125,20 @@ main a{
     color: rgb(144, 20, 20);
     -webkit-text-stroke: 0.3px rgb(33, 31, 31);
     font-weight: bold;
+}
+.plantelImg{
+display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: rgb(144, 20, 20);
+    -webkit-text-stroke: 0.3px rgb(33, 31, 31);
+    font-weight: bold;
+}
+.plantelImg img{
+    width: 150px;
+    height: 150px;
 }
 .imagenIcono{
     filter: grayscale(1);
@@ -240,6 +255,41 @@ footer p{
 
 }
 */
+.textoCard{
+    opacity: 0;
+}
+
+.overlayNoticia{
+    font-size: 25px;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+}
+.overlayNoticia:hover{
+    background-color: rgba(130, 2, 2, 0.388);
+    .textoCard{
+        opacity: 1;
+    }
+    
+}
+.borderCard{
+    border: none;
+}
+.filaNoticias{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.borderCardCT{
+    border: none;
+    width: 100%;
+}
+.cardCT{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .parteUnoC{
     display:flex;
     justify-content: space-evenly;
@@ -326,6 +376,16 @@ iframe{
     form textarea {
         font-size: 10px;
     }
+    .mainI h2{
+        font-size: 20px;
+    }
+    .overlayNoticia h3{
+        font-weight: bold;
+        -webkit-text-stroke: 0.2px rgb(29, 28, 28);
+        font-size: 15px;
+        color: whitesmoke;
+        text-shadow: 4px 3px 2px black;
+    }
 }
 
 @media (min-width: 480px) and (max-width: 600px) {
@@ -365,6 +425,16 @@ form input {
 form textarea {
     font-size: 12px;
 }
+.mainI h2{
+    font-size: 25px;
+}
+.overlayNoticia h3{
+    font-weight: bold;
+    -webkit-text-stroke: 0.2px rgb(29, 28, 28);
+    font-size: 20px;
+    color: whitesmoke;
+    text-shadow: 4px 3px 2px black;
+}
 }
 @media (min-width:600px) and (max-width:768px) {
     .escudoH {
@@ -403,6 +473,16 @@ form textarea {
     form textarea {
         font-size: 15px;
     }
+    .mainI h2{
+        font-size: 30px;
+    }
+    .overlayNoticia h3{
+        font-weight: bold;
+        -webkit-text-stroke: 0.2px rgb(29, 28, 28);
+        font-size: 25px;
+        color: whitesmoke;
+        text-shadow: 4px 3px 2px black;
+    }
 }
 
 @media (min-width: 768px) and (max-width:1023px) {
@@ -435,6 +515,16 @@ form textarea {
     
     form textarea {
         font-size: 20px;
+    }
+    .mainI h2{
+        font-size: 35px;
+    }
+    .overlayNoticia h3{
+        font-weight: bold;
+        -webkit-text-stroke: 0.2px rgb(29, 28, 28);
+        font-size: 27px;
+        color: whitesmoke;
+        text-shadow: 4px 3px 2px black;
     }
 }
 
@@ -470,4 +560,17 @@ form textarea {
     form textarea {
         font-size: 20px;
     }
+    .mainI h2{
+        font-size: 45px;
+    }
+    .overlayNoticia h3{
+        font-weight: bold;
+        -webkit-text-stroke: 0.2px rgb(29, 28, 28);
+        font-size: 30px;
+        color: whitesmoke;
+        text-shadow: 4px 3px 2px black;
+    }
+}
+.piePagina{
+    background-color: rgb(56, 56, 56);
 }
