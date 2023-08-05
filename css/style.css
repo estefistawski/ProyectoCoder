@@ -1,142 +1,121 @@
-* {
+*{
     font-family: 'Kameron', serif;
-    margin: 0;
+    margin:0;
 }
-
-header {
-    height: 25%px;
-    /* background-image:url(../img/POSIBLE\ FONDO\ 4\ co.jpeg); */
-    background-image: url(../img/Imágen\ con\ frase.jpg);
+header{
+    height: 250px;
+    background-image:url(../img/POSIBLE\ FONDO\ 4\ co.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 0px 50%;
+    background-position: 0px -10px;
     margin-top: 0;
     border-bottom: 1px white solid;
-}
-
-.divNav {
+    }
+.divNav{
     z-index: 2;
 }
-
-.arribaEncabezado {
+.arribaEncabezado{
     height: 271px;
+    display:flex;
+    flex-flow: column nowrap;
+    justify-content: center;
 }
-
-.escudoH {
+.escudoH{
     position: absolute;
-    left: 77%;
-    bottom: -20%;
+    left:77%;
+    bottom: -10%;
     z-index: 10;
-}
-
-.paraResponsive {
+    }
+.paraResponsive{
     position: relative;
 }
 
-header h1 {
-    color: black;
+header h1{
+    color:black;
     -webkit-text-stroke: 1px white;
     font-weight: bolder;
     text-align: center;
     font-size: 60px;
 }
 
-main {
+main{
     background-color: grey;
 }
-
-main a {
+main a{
     text-decoration: none;
-    color: whitesmoke;
+    color:whitesmoke;
 }
-
-.divNav li {
+.divNav li{
     font-size: 24px;
     list-style: none;
     display: inline;
     margin-left: 80px;
     margin-right: 80px;
 }
-
-.divNav ul {
+.divNav ul{
     position: relative;
     bottom: 3px;
 }
-
-.hover li a:hover {
+.hover li a:hover{
     color: rgb(218, 213, 205);
 }
-
-.mainI {
+.mainI{
     padding: 30px;
     font-size: 20px;
 }
-
-.imgCuerpo {
+.imgCuerpo{
     width: 700px;
     height: 500px;
 }
-
-.mainF {
+.mainF{
     padding: 30px;
     font-size: 20px;
 }
-
-.mainF h2 {
+.mainF h2{
     display: flex;
-    justify-content: center;
+    justify-content:center ;
     font-size: 50px;
     font-weight: bold;
 }
-
-.mainF h3 {
+.mainF h3{
     font-size: 40px;
     font-weight: bold;
 }
-
-.mainF h4 {
+.mainF h4{
     font-size: 33px;
 }
-
-.tabla {
+.tabla{
     width: 600px;
 }
-
-.contenedorTablas1 {
+.contenedorTablas1{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 }
-
-.contenedorTablas2 {
+.contenedorTablas2{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 }
-
-.mainS {
+.mainS{
     padding-left: 30px;
-    padding-top: 60px;
+    padding-top:60px ;
     padding-right: 30px;
     font-size: 25px;
 }
-
-.mainS h3 {
+.mainS h3{
     font-size: 28px;
     font-weight: bold;
 }
-
-.mainS a {
+.mainS a{
     text-decoration: none;
 }
-
-.contenedorIconos {
+.contenedorIconos{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 }
-
-.iconoImg {
+.iconoImg{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -146,79 +125,86 @@ main a {
     -webkit-text-stroke: 0.3px rgb(33, 31, 31);
     font-weight: bold;
 }
-
-.imagenIcono {
+.imagenIcono{
     filter: grayscale(1);
 }
-
-.imagenIcono:hover {
+.imagenIcono:hover{
     filter: none;
 }
-
-.contenedorSponsors {
+.contenedorSponsors{
     display: flex;
     flex-direction: column;
     align-items: normal;
 }
-
-.itemSponsor {
+.itemSponsor{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 }
-
-.itemSponsor img {
+.itemSponsor img{
     width: 200px;
 }
-
-.imagenSponsor {
+.imagenSponsor{
     filter: grayscale(1);
 }
 
-.imagenSponsor:hover {
+.imagenSponsor:hover{
     filter: none;
 }
-
-.mainT {
+.mainT{
     padding-left: 30px;
     padding-top: 60px;
     padding-right: 30px;
     font-size: 25px;
 }
-
-.mainT h1 {
+.mainT h1{
     font-size: 50px;
     font-weight: bold;
     display: flex;
     justify-content: center;
 }
-
-.mainT h2 {
-    font-size: 40px;
+.mainT h2{
+    font-size:40px ;
 }
-
-.mainC {
-    padding-top: 90px;
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-bottom: 30px;
-    display: flex;
-    flex-direction: column;
-    gap: 75px;
+.mainC{
+   padding-top: 90px;
+   padding-left: 30px;
+   padding-right: 30px;
+   padding-bottom: 30px;
+   display: flex;
+   flex-direction: column;
+   gap: 75px;
 }
-
-main h2 {
+main h2{
     font-size: 35px;
     font-weight: bold;
 }
-
-
-
-.mainC a {
+form{
+    font-size: 25px;
+    font-style: italic;
+    padding: 20px;
+}
+form input{
+    font-size: 20px;
+}
+form textarea{
+    font-size: 20px;
+}
+.mainC a{
     font-size: 20px;
     color: black;
 }
-
+.mainC h3{
+    font-size: 30px;
+    font-weight: bold;
+}
+.mainC p{
+    font-size: 25px;
+}
+.mainC h2{
+    font-size:45px;
+    font-weight: bold;
+}
 /*footer{
     background-color: rgb(36, 36, 36);
     padding: 0px;
@@ -239,11 +225,10 @@ footer p{
     font-weight: bold;
     padding:12px;
 }*/
-.escudoF {
-    width: 90px;
-    height: 110px;
+.escudoF{
+    width:90px ;
+    height:110px ;
 }
-
 /*
 .abajoPie{
     display: flex;
@@ -255,67 +240,56 @@ footer p{
 
 }
 */
-.parteUnoC {
-    display: flex;
+.parteUnoC{
+    display:flex;
     justify-content: space-evenly;
 }
-
-.redes {
+.redes{
     display: flex;
     flex-direction: column;
 }
-
-.redesTitulo {
+.redesTitulo{
     display: flex;
     flex-direction: column;
 }
-
-.tituloFormulario {
+.tituloFormulario{
     display: flex;
     flex-direction: column;
 }
-
-.parteDosC {
+.parteDosC{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: space-around;
 }
-
-.sedeTitulo {
+.sedeTitulo{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-
-.horarios {
+.horarios{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-
-iframe {
+iframe{
     padding: 5px;
     width: 50%;
-    height: 50%x
+    height:400px
 }
-
-.colorBtn {
+.colorBtn{
     background-color: rgb(67, 67, 67);
     color: beige;
     font-size: 17px;
 }
-
-.colorBtn:hover {
+.colorBtn:hover{
     background-color: rgb(56, 56, 56);
     border: 0.5px solid white;
 }
-
-.colorCardbody {
-    background-color: rgb(144, 20, 20);
+.colorCardbody{
+    background-color:  rgb(144, 20, 20);
     color: whitesmoke;
     font-size: 22px;
 }
-
 @media (min-width: 320px) and (max-width: 480px) {
     .escudoH {
         width: 75px;
@@ -364,6 +338,7 @@ iframe {
     flex-direction: column;
 }
 
+
 .mainC h3 {
     font-size: 20px;
     font-weight: bold;
@@ -397,6 +372,9 @@ form textarea {
         height: 175px;
     }
     .parteUnoC{
+        flex-direction: column;
+    }
+    .parteDosC{
         flex-direction: column;
     }
     .mainC h3 {
