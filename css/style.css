@@ -41,6 +41,9 @@ header{
         height: 145px;
     }
 }
+.parteDosC{
+    flex-direction: column;
+}
 @media (min-width:600px) and (max-width:768px){
     .escudoH{
         width:150px;
@@ -48,6 +51,9 @@ header{
     }
     .arribaEncabezado h1{
         font-size: 40px;
+    }
+    .parteDosC{
+        flex-direction: column;
     }
 }
 @media (min-width: 768px) and (max-width:1023px){
@@ -58,7 +64,9 @@ header{
     .arribaEncabezado h1{
         font-size: 50px;
     }
-
+    .parteDosC{
+        flex-direction: column;
+    }
 }
 @media (min-width:1024px){
     .escudoH{
@@ -231,10 +239,15 @@ form textarea{
     color: black;
 }
 .mainC h3{
-    font-size: 25px;
+    font-size: 30px;
+    font-weight: bold;
 }
 .mainC p{
-    font-size: 20px;
+    font-size: 25px;
+}
+.mainC h2{
+    font-size:45px;
+    font-weight: bold;
 }
 /*footer{
     background-color: rgb(36, 36, 36);
