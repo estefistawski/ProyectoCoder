@@ -1,0 +1,35 @@
+header {
+    height: 250px;
+    background-image: url(../img/POSIBLE\ FONDO\ 4\ co.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0px -10px;
+    margin-top: 0;
+    border-bottom: 1px white solid;
+
+    h1 {
+        color: black;
+        -webkit-text-stroke: 1px white;
+        font-weight: bolder;
+        text-align: center;
+        font-size: 60px;
+    }
+}
+
+.arribaEncabezado {
+    height: 271px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+}
+
+.escudoH {
+    position: absolute;
+    left: 77%;
+    bottom: -10%;
+    z-index: 10;
+}
+
+.paraResponsive {
+    position: relative;
+}

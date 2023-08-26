@@ -1,0 +1,35 @@
+.filaNoticias {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.noticias {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.overlayNoticia {
+    font-size: 25px;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+}
+
+.overlayNoticia:hover {
+    background-color: rgba(130, 2, 2, 0.388);
+
+    .textoCard {
+        opacity: 1;
+    }
+
+}
+
+.borderCard {
+    border: none;
+}
+
+.textoCard {
+    opacity: 0;
+}
