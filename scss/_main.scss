@@ -136,20 +136,32 @@ main {
         font-size: 25px;
     }
 }
+.contenedorIconosredes {
+    display: flex;
+    flex-direction: column;
+}
 
+.iconoImgredes {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: rgb(144, 20, 20);
+    -webkit-text-stroke: 0.3px rgb(33, 31, 31);
+    font-weight: bold;
+}
+
+.imagenIconoredes {
+    filter: grayscale(1);
+    width: 10px;
+    height: 20px;
+}
+
+.imagenIconoredes:hover {
+    filter: none;
+}
 .parteUnoC {
     display: flex;
     justify-content: space-evenly;
-}
-
-.redes {
-    display: flex;
-    flex-direction: column;
-}
-
-.redesTitulo {
-    display: flex;
-    flex-direction: column;
 }
 
 .tituloFormulario {
