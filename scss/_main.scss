@@ -117,14 +117,10 @@ main {
     flex-direction: column;
     gap: 75px;
 
-    a {
-        font-size: 20px;
-        color: black;
-    }
-
     h2 {
         font-size: 45px;
         font-weight: bold;
+        text-align: center;
     }
 
     h3 {
@@ -138,7 +134,7 @@ main {
 }
 .contenedorIconosredes {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
 }
 
 .iconoImgredes {
@@ -148,7 +144,11 @@ main {
     color: rgb(144, 20, 20);
     -webkit-text-stroke: 0.3px rgb(33, 31, 31);
     font-weight: bold;
+    p{
+        font-size: 20px;
+    }
 }
+
 
 .imagenIconoredes {
     filter: grayscale(1);
@@ -160,15 +160,16 @@ main {
     filter: none;
 }
 .imgiconoredes{
-    width: 15px;
-    height: 15px;
+    width: 60px;
+    height: 60px;
 }
 .parteUnoC {
     display: flex;
+    flex-direction: row;
     justify-content: space-evenly;
 }
 
-.tituloFormulario {
+.formularioTitulo {
     display: flex;
     flex-direction: column;
 }
