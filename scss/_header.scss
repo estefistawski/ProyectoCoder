@@ -28,7 +28,10 @@ header {
     left: 77%;
     bottom: -10%;
     z-index: 10;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
 }
+
 
 .paraResponsive {
     position: relative;

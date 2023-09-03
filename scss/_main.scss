@@ -16,6 +16,7 @@ main {
     padding: 20px;
     display: flex;
     flex-direction: column;
+    gap: 50px;
 
 }
 
@@ -23,12 +24,14 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 15px;
 }
 
 .cardCT {
     display: flex;
     flex-direction: column;
     align-items: center;
+    animation-duration: 2s;
 }
 
 .borderCardCT {
@@ -41,8 +44,7 @@ main {
     font-size: 20px;
 
     h2 {
-        display: flex;
-        justify-content: center;
+        text-align: center;
         font-size: 50px;
         font-weight: bold;
     }
@@ -58,6 +60,9 @@ main {
 }
 
 .mainS {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
     padding-left: 30px;
     padding-top: 60px;
     padding-right: 30px;
@@ -72,8 +77,13 @@ main {
         text-decoration: none;
     }
 }
-
+.comunicados{
+    animation-duration: 3s;
+}
 .mainT {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
     padding-left: 30px;
     padding-top: 60px;
     padding-right: 30px;
@@ -88,6 +98,9 @@ main {
 
     h2 {
         font-size: 40px;
+    }
+    .cardPr{
+        animation-duration: 2.5s;
     }
 }
 
@@ -115,6 +128,7 @@ main {
     padding-bottom: 30px;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     gap: 75px;
 
     h2 {
@@ -131,62 +145,43 @@ main {
     p {
         font-size: 25px;
     }
-}
-.contenedorIconosredes {
-    display: flex;
-    flex-direction: row;
-}
-
-.iconoImgredes {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    color: rgb(144, 20, 20);
-    -webkit-text-stroke: 0.3px rgb(33, 31, 31);
-    font-weight: bold;
-    p{
-        font-size: 20px;
+    .contenedorIconosredes {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    .imgiconoredes{
+        width: 60px;
+        height: 60px;
     }
 }
-
-
-.imagenIconoredes {
-    filter: grayscale(1);
-    width: 10px;
-    height: 20px;
-}
-
-.imagenIconoredes:hover {
-    filter: none;
-}
-.imgiconoredes{
-    width: 60px;
-    height: 60px;
-}
-.parteUnoC {
-    display: flex;
-    flex-direction: row;
+.parteUnoC{
+    display:flex;
     justify-content: space-evenly;
 }
-
-.formularioTitulo {
+.redes{
+    display: flex;
+    flex-direction: row;
+}
+.redesTitulo{
     display: flex;
     flex-direction: column;
+   justify-content: center;
+   gap: 20px;
 }
 
-.parteDosC {
+.parteDosC{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
 }
-
-.sedeTitulo {
+.sedeTitulo{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-
-.horarios {
+.horarios{
     display: flex;
     flex-direction: column;
     align-items: center;

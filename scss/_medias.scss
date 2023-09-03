@@ -4,9 +4,6 @@
         height: 100px;
     }
 
-    .parteUnoC {
-        flex-direction: column;
-    }
 
     .mainC {
         h2 {
@@ -24,22 +21,41 @@
             width: 75%;
             height: 150px;
         }
-    }
-
-    form {
-        font-size: 12px;
-        font-style: italic;
-        padding: 10px;
-
-        input {
-            font-size: 10px;
+        .parteUnoC {
+            flex-direction: column;
         }
-
-        textarea {
-            font-size: 10px;
+        .redes{
+            flex-direction: column;
+        }
+        form {
+            font-size: 12px;
+            font-style: italic;
+            padding: 10px;
+    
+            input {
+                font-size: 10px;
+            }
+    
+            textarea {
+                font-size: 10px;
+            }
+        }
+        .contenedorIconosredes{
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            
+        }
+        .imgiconoredes{
+            width: 30px;
+            height: 30px;
+        }
+        .redesTitulo{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
         }
     }
-
     .mainI h2 {
         font-size: 20px;
     }
@@ -50,6 +66,32 @@
         font-size: 15px;
         color: whitesmoke;
         text-shadow: 4px 3px 2px black;
+    }
+    .mainF{
+        h2{
+            font-size: 20px;
+        }
+        h3{
+            font-size: 15px;
+        }
+        h4{
+            font-size: 12px;
+        }
+    }
+    .contenedorTablas1{
+        flex-direction: column;
+        align-items: center;
+    }
+    .contenedorTablas2{
+        flex-direction: column;
+        align-items: center;
+    }
+    .contenedorTablas{
+        gap: 5px;
+    }
+    .tabla{
+        width:250px;
+        height: 50px;
     }
 }
 
@@ -79,19 +121,42 @@
             width: 75%;
             height: 200px;
         }
-    }
-
-    .mainC form {
-        font-size: 15px;
-        font-style: italic;
-        padding: 15px;
-
-        input {
-            font-size: 12px;
+        .parteUnoC {
+            flex-direction: column;
         }
-
-        textarea {
-            font-size: 12px;
+        .redes{
+            flex-direction: column;
+        }
+        form {
+            font-size: 15px;
+            font-style: italic;
+            padding: 15px;
+    
+            input {
+                font-size: 12px;
+            }
+    
+            textarea {
+                font-size: 12px;
+            }
+        }
+        .contenedorIconosredes{
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            
+        }
+        .imgiconoredes{
+            width: 35px;
+            height: 35px;
+        }
+        .redesTitulo{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        img {
+            width: 150px;
         }
     }
 
@@ -106,6 +171,32 @@
         color: whitesmoke;
         text-shadow: 4px 3px 2px black;
     }
+    .mainF{
+        h2{
+            font-size: 25px;
+        }
+        h3{
+            font-size: 20px;
+        }
+        h4{
+            font-size: 18px
+        }
+    }
+    .contenedorTablas1{
+        flex-direction: column;
+        align-items: center;
+    }
+    .contenedorTablas2{
+        flex-direction: column;
+        align-items: center;
+    }
+    .contenedorTablas{
+        gap: 5px;
+    }
+    .tabla{
+        width:300px;
+        height: 75px;
+    }
 }
 
 @media (min-width:600px) and (max-width:768px) {
@@ -114,14 +205,11 @@
         height: 175px;
     }
 
-    .parteUnoC {
-        flex-direction: column;
-    }
     .mainC {
         h2 {
-            font-size: 35px;
+            font-size: 25px;
             font-weight: bold;
-            text-align: center;
+            
         }
 
         h3 {
@@ -132,6 +220,24 @@
             padding: 5px;
             width: 75%;
             height: 250px;
+        }
+        .parteUnoC {
+            flex-direction: column;
+        }
+        .contenedorIconosredes{
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            
+        }
+        .imgiconoredes{
+            width: 40px;
+            height: 40px;
+        }
+        .redesTitulo{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
         }
     }
 
@@ -159,6 +265,33 @@
         font-size: 25px;
         color: whitesmoke;
         text-shadow: 4px 3px 2px black;
+    }
+    .mainF{
+        h2{
+            font-size: 30px;
+        }
+        h3{
+            font-size: 25px;
+        }
+        h4{
+            font-size: 20px;
+            text-align: center;
+        }
+    }
+    .contenedorTablas1{
+        flex-direction: column;
+        align-items: center;
+    }
+    .contenedorTablas2{
+        flex-direction: column;
+        align-items: center;
+    }
+    .contenedorTablas{
+        gap: 5px;
+    }
+    .tabla{
+        width:350px;
+        height: 75px;
     }
 }
 
@@ -197,6 +330,11 @@
                 font-size: 20px;
             }
         }
+        .contenedorIconosredes{
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
         }
     .mainI h2 {
         font-size: 35px;
@@ -210,7 +348,8 @@
         text-shadow: 4px 3px 2px black;
     }
     .tabla {
-        width: 500px;
+        width:250px;
+        height: 100px;
     }
     
     .contenedorTablas1 {

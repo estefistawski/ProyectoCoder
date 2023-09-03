@@ -13,12 +13,13 @@
     color: rgb(144, 20, 20);
     -webkit-text-stroke: 0.3px rgb(33, 31, 31);
     font-weight: bold;
+    animation-duration: 3s;
 }
 
-.imagenIcono {
+.imagenIconoS {
     filter: grayscale(1);
 }
 
-.imagenIcono:hover {
+.imagenIconoS:hover {
     filter: none;
 }

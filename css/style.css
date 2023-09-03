@@ -32,6 +32,8 @@ header h1 {
   left: 77%;
   bottom: -10%;
   z-index: 10;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
 }
 
 .paraResponsive {
@@ -59,13 +61,18 @@ header h1 {
 form {
   font-size: 25px;
   font-style: italic;
-  padding: 20px;
+  text-align: center;
 }
 form input {
-  font-size: 20px;
+  font-size: 25px;
 }
 form textarea {
   font-size: 20px;
+}
+
+.formulario {
+  display: flex;
+  justify-content: center;
 }
 
 .contenedorIconos {
@@ -83,13 +90,14 @@ form textarea {
   color: rgb(144, 20, 20);
   -webkit-text-stroke: 0.3px rgb(33, 31, 31);
   font-weight: bold;
+  animation-duration: 3s;
 }
 
-.imagenIcono {
+.imagenIconoS {
   filter: grayscale(1);
 }
 
-.imagenIcono:hover {
+.imagenIconoS:hover {
   filter: none;
 }
 
@@ -109,18 +117,21 @@ main a {
   padding: 20px;
   display: flex;
   flex-direction: column;
+  gap: 50px;
 }
 
 .cuerpoTecnico {
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 15px;
 }
 
 .cardCT {
   display: flex;
   flex-direction: column;
   align-items: center;
+  animation-duration: 2s;
 }
 
 .borderCardCT {
@@ -133,8 +144,7 @@ main a {
   font-size: 20px;
 }
 .mainF h2 {
-  display: flex;
-  justify-content: center;
+  text-align: center;
   font-size: 50px;
   font-weight: bold;
 }
@@ -147,6 +157,9 @@ main a {
 }
 
 .mainS {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
   padding-left: 30px;
   padding-top: 60px;
   padding-right: 30px;
@@ -160,7 +173,14 @@ main a {
   text-decoration: none;
 }
 
+.comunicados {
+  animation-duration: 3s;
+}
+
 .mainT {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
   padding-left: 30px;
   padding-top: 60px;
   padding-right: 30px;
@@ -174,6 +194,9 @@ main a {
 }
 .mainT h2 {
   font-size: 40px;
+}
+.mainT .cardPr {
+  animation-duration: 2.5s;
 }
 
 .colorBtn {
@@ -200,6 +223,7 @@ main a {
   padding-bottom: 30px;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   gap: 75px;
 }
 .mainC h2 {
@@ -214,48 +238,32 @@ main a {
 .mainC p {
   font-size: 25px;
 }
-
-.contenedorIconosredes {
+.mainC .contenedorIconosredes {
   display: flex;
   flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
-
-.iconoImgredes {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  color: rgb(144, 20, 20);
-  -webkit-text-stroke: 0.3px rgb(33, 31, 31);
-  font-weight: bold;
-}
-.iconoImgredes p {
-  font-size: 20px;
-}
-
-.imagenIconoredes {
-  filter: grayscale(1);
-  width: 10px;
-  height: 20px;
-}
-
-.imagenIconoredes:hover {
-  filter: none;
-}
-
-.imgiconoredes {
+.mainC .imgiconoredes {
   width: 60px;
   height: 60px;
 }
 
 .parteUnoC {
   display: flex;
-  flex-direction: row;
   justify-content: space-evenly;
 }
 
-.formularioTitulo {
+.redes {
+  display: flex;
+  flex-direction: row;
+}
+
+.redesTitulo {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  gap: 20px;
 }
 
 .parteDosC {
@@ -286,6 +294,11 @@ main a {
   display: flex;
   flex-direction: column;
   margin: 10px;
+  gap: 15px;
+}
+
+.noticia {
+  animation-duration: 2s;
 }
 
 .overlayNoticia {
@@ -320,6 +333,8 @@ main a {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  animation-iteration-count: infinite;
+  animation-duration: 4s;
 }
 .itemSponsor img {
   width: 200px;
@@ -334,7 +349,28 @@ main a {
 }
 
 .tabla {
-  width: px;
+  width: 500px;
+  height: 100px;
+  animation-duration: 2.5s;
+}
+
+.contenedorTablas1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.contenedorTablas2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.contenedorTablas {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  row-gap: 50px;
 }
 
 .plantel {
@@ -380,9 +416,6 @@ main a {
     width: 75px;
     height: 100px;
   }
-  .parteUnoC {
-    flex-direction: column;
-  }
   .mainC h2 {
     font-size: 25px;
     font-weight: bold;
@@ -397,16 +430,36 @@ main a {
     width: 75%;
     height: 150px;
   }
-  form {
+  .mainC .parteUnoC {
+    flex-direction: column;
+  }
+  .mainC .redes {
+    flex-direction: column;
+  }
+  .mainC form {
     font-size: 12px;
     font-style: italic;
     padding: 10px;
   }
-  form input {
+  .mainC form input {
     font-size: 10px;
   }
-  form textarea {
+  .mainC form textarea {
     font-size: 10px;
+  }
+  .mainC .contenedorIconosredes {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .mainC .imgiconoredes {
+    width: 30px;
+    height: 30px;
+  }
+  .mainC .redesTitulo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
   .mainI h2 {
     font-size: 20px;
@@ -417,6 +470,30 @@ main a {
     font-size: 15px;
     color: whitesmoke;
     text-shadow: 4px 3px 2px black;
+  }
+  .mainF h2 {
+    font-size: 20px;
+  }
+  .mainF h3 {
+    font-size: 15px;
+  }
+  .mainF h4 {
+    font-size: 12px;
+  }
+  .contenedorTablas1 {
+    flex-direction: column;
+    align-items: center;
+  }
+  .contenedorTablas2 {
+    flex-direction: column;
+    align-items: center;
+  }
+  .contenedorTablas {
+    gap: 5px;
+  }
+  .tabla {
+    width: 250px;
+    height: 50px;
   }
 }
 @media (min-width: 480px) and (max-width: 600px) {
@@ -441,6 +518,12 @@ main a {
     width: 75%;
     height: 200px;
   }
+  .mainC .parteUnoC {
+    flex-direction: column;
+  }
+  .mainC .redes {
+    flex-direction: column;
+  }
   .mainC form {
     font-size: 15px;
     font-style: italic;
@@ -452,6 +535,23 @@ main a {
   .mainC form textarea {
     font-size: 12px;
   }
+  .mainC .contenedorIconosredes {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .mainC .imgiconoredes {
+    width: 35px;
+    height: 35px;
+  }
+  .mainC .redesTitulo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .mainC img {
+    width: 150px;
+  }
   .mainI h2 {
     font-size: 25px;
   }
@@ -462,19 +562,39 @@ main a {
     color: whitesmoke;
     text-shadow: 4px 3px 2px black;
   }
+  .mainF h2 {
+    font-size: 25px;
+  }
+  .mainF h3 {
+    font-size: 20px;
+  }
+  .mainF h4 {
+    font-size: 18px;
+  }
+  .contenedorTablas1 {
+    flex-direction: column;
+    align-items: center;
+  }
+  .contenedorTablas2 {
+    flex-direction: column;
+    align-items: center;
+  }
+  .contenedorTablas {
+    gap: 5px;
+  }
+  .tabla {
+    width: 300px;
+    height: 75px;
+  }
 }
 @media (min-width: 600px) and (max-width: 768px) {
   .escudoH {
     width: 150px;
     height: 175px;
   }
-  .parteUnoC {
-    flex-direction: column;
-  }
   .mainC h2 {
-    font-size: 35px;
+    font-size: 25px;
     font-weight: bold;
-    text-align: center;
   }
   .mainC h3 {
     font-size: 25px;
@@ -484,6 +604,23 @@ main a {
     padding: 5px;
     width: 75%;
     height: 250px;
+  }
+  .mainC .parteUnoC {
+    flex-direction: column;
+  }
+  .mainC .contenedorIconosredes {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .mainC .imgiconoredes {
+    width: 40px;
+    height: 40px;
+  }
+  .mainC .redesTitulo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
   form {
     font-size: 20px;
@@ -505,6 +642,31 @@ main a {
     font-size: 25px;
     color: whitesmoke;
     text-shadow: 4px 3px 2px black;
+  }
+  .mainF h2 {
+    font-size: 30px;
+  }
+  .mainF h3 {
+    font-size: 25px;
+  }
+  .mainF h4 {
+    font-size: 20px;
+    text-align: center;
+  }
+  .contenedorTablas1 {
+    flex-direction: column;
+    align-items: center;
+  }
+  .contenedorTablas2 {
+    flex-direction: column;
+    align-items: center;
+  }
+  .contenedorTablas {
+    gap: 5px;
+  }
+  .tabla {
+    width: 350px;
+    height: 75px;
   }
 }
 @media (min-width: 768px) and (max-width: 1023px) {
@@ -537,6 +699,11 @@ main a {
   .mainC form textarea {
     font-size: 20px;
   }
+  .mainC .contenedorIconosredes {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
   .mainI h2 {
     font-size: 35px;
   }
@@ -548,7 +715,8 @@ main a {
     text-shadow: 4px 3px 2px black;
   }
   .tabla {
-    width: 500px;
+    width: 250px;
+    height: 100px;
   }
   .contenedorTablas1 {
     display: flex;

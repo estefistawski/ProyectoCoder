@@ -8,8 +8,11 @@
     display: flex;
     flex-direction: column;
     margin: 10px;
+    gap: 15px;
 }
-
+.noticia{
+    animation-duration: 2s;
+}
 .overlayNoticia {
     font-size: 25px;
     display: flex;
