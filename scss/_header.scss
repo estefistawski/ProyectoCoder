@@ -1,6 +1,6 @@
 header {
     height: 250px;
-    background-image: url(../img/POSIBLE\ FONDO\ 4\ co.jpeg);
+    background-image: url(../img/fondoheader.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 0px -10px;
@@ -23,16 +23,15 @@ header {
     justify-content: center;
 }
 
-.escudoH {
+.escudoHeader{
     position: absolute;
-    left: 77%;
+    left:77%;
     bottom: -10%;
     z-index: 10;
     animation-duration: 2s;
     animation-iteration-count: infinite;
 }
 
-
-.paraResponsive {
+.paraResponsive{
     position: relative;
 }

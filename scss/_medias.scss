@@ -1,5 +1,5 @@
 @media (min-width: 320px) and (max-width: 480px) {
-    .escudoH {
+    .escudoHeader{
         width: 75px;
         height: 100px;
     }
@@ -96,9 +96,9 @@
 }
 
 @media (min-width: 480px) and (max-width: 600px) {
-    .escudoH {
-        width: 120px;
-        height: 145px;
+    .escudoHeader{
+        width: 100px;
+        height: 125px;
     }
 
     .parteUnoC {
@@ -200,9 +200,9 @@
 }
 
 @media (min-width:600px) and (max-width:768px) {
-    .escudoH {
-        width: 150px;
-        height: 175px;
+    .escudoHeader{
+        width: 120px;
+        height: 145px;
     }
 
     .mainC {
@@ -296,11 +296,10 @@
 }
 
 @media (min-width: 768px) and (max-width:1023px) {
-    .escudoH {
+    .escudoHeader{
         width: 150px;
-        height: 175px
+        height: 175px;
     }
-
     .mainC {
         h2 {
             font-size: 45px;
@@ -366,9 +365,9 @@
 }
 
 @media (min-width:1024px) {
-    .escudoH {
-        width: 225px;
-        height: 250px;
+    .escudoHeader{
+        width: 150px;
+        height: 175px;
     }
 
     .mainC {
